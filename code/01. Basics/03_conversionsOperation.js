@@ -86,6 +86,7 @@ console.log(valueInBool4);
 // Number type conversion(String) and typeof:
 let someNumber = 33;
 console.log(someNumber);
+
 let valueInString = String(someNumber);
 console.log(typeof valueInString);
 console.log(valueInString);
