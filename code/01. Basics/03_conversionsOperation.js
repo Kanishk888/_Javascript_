@@ -79,7 +79,7 @@ console.log(valueInBool4);
 
 /*
     1 => true; 0 => false
-    
+
     "" => false
     "Kanishk" => true
 */
@@ -91,3 +91,13 @@ console.log(someNumber);
 let valueInString = String(someNumber);
 console.log(typeof valueInString);
 console.log(valueInString);
+
+// ***************************Operations*************************
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+// Basic Maths Operation:
+
+console.table([2 + 2, 2 - 2, 2 * 2, 2 ** 3, 2 / 3, 2 % 3]);
