@@ -99,5 +99,44 @@ let negValue = -value;
 console.log(negValue);
 
 // Basic Maths Operation:
-
+/*Addition, subtraction, multiplication, power(exponential), division, remainder */
 console.table([2 + 2, 2 - 2, 2 * 2, 2 ** 3, 2 / 3, 2 % 3]);
+
+let str1 = "Hello";
+let str2 = ", Kanishk";
+
+let str3 = str1 + str2;
+console.log(str3);
+
+// why string to number
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+// to study about type conversion : https://tc39.es/ecma262/#sec-abstract-operations
+
+console.log(3 + 4 * 5 % 3); // not recommened
+
+console.log(true);
+console.log(+true);
+// console.log(true+); // error
+
+console.log(false);
+console.log(+false);
+// console.log(false+); // error
+
+console.log(+"");
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
+console.table([num1, num2, num3])
+
+let gameCounter = 100;
+gameCounter++;
+/**
+ * prefix : ++x, --x
+ * postfix : x++, x--
+ */
+// to study about prefix and postfix operations : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+console.log(gameCounter);
