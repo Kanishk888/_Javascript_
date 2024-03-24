@@ -10,6 +10,7 @@ const scoreValue = 100.3; // Number
 const isLoggedIn = false; // Boolean
 const outsideTemp = null; // Object
 let userEmail;
+const _undefined_ = undefined; // Undefined
 
 const id = Symbol("123"); // Symbol
 const anotherId = Symbol("123"); // Symbol
