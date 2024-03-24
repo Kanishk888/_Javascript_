@@ -41,5 +41,30 @@ console.log(typeof anotherId);
 
 /**
  * Memory's: Stack and Heap
- * 1. Stack[Primitive] -> Pr
+ * 1. Stack[Primitive] -> call by value
+ * 2. Heap[Non-Primitive] -> call by reference
  */
+//Example(Primitive)
+let yourYoutubeName = "hiteshchoudarydotcom";
+let anotherName = "chaiaurcode";
+
+anotherName = "None";
+
+console.log(anotherName);
+console.log(yourYoutubeName);
+
+// Example(Non-Primitive)
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+userTwo.email = "None";
+
+//console.log(userTwo);
+console.log(userTwo.email);
+//console.log(userTwo);
+console.log(userOne.email);
+
+// diagrammtic way of explained:https://excalidraw.com/#json=EhzAIIQRgdyPtOqXdialz,_dOdBOstS9j_LlmnHsW2wA
