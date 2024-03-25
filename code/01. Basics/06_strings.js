@@ -11,5 +11,5 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
  * 1. const/let variable = "string";
  * 2. const/let variable = new String("string");
  *
- * String deconstructor provides some additional methods/functions
+ * String constructor provides some additional methods/functions, these methods are used to get additional information about string and also used to manipulate it.
  */
