@@ -36,4 +36,5 @@ const newString = gameName.substring(0, 4);
 console.log(newString); // 4 is exclusive
 
 // slice:=> hello World
- hvjb
+
+// some other string methods/functions:
