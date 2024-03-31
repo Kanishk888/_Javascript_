@@ -37,4 +37,10 @@ console.log(newString); // 4 is exclusive
 
 // slice:=> hello World
 
-// some other string methods/functions:
+// some other string methods/functions
+/**
+ * .trim()
+ * .concat()
+ * .trimStart()
+ * .trimEnd()
+ */
