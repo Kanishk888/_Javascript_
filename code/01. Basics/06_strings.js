@@ -45,4 +45,5 @@ console.log(newString); // 4 is exclusive
  * .trimEnd()
  * .split()
  * .repeat()
+ * .replace()
  */
